@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+    background: linear-gradient(to right, rgb(0, 0, 0), #103363);
+    height: 105vh;
+}
+
+* {
+    font-family: Outfit;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.description-container {
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    gap: 34px;
+    width: 100%;
+    padding-left: 56px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-right: 12px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.description-heading {
+    color: white;
+}
+
+.project-details-container {
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+
+.project-heading {
+    flex: none;
+    height: auto;
+    position: relative;
+}
+
+.heading {
+    background-image: url(https://media.istockphoto.com/id/1409055428/photo/background-material-with-an-impressive-vivid-gradation.webp?b=1&s=170667a&w=0&k=20&c=8bIan_nY7Z8wiiXUUu5fw7PHvU5l2zaGOxb1PQKi6eo=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(136, 136, 136);
+    font-size: 80px;
+    font-family: Outfit, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    white-space: normal;
+    line-height: 1;
+    margin: 0px;
+    padding: 0px 0px 10px;
+}
+
+.project-description {
+    position: relative;
+    white-space: pre-wrap;
+    word-break: break-word;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    width: 70vw;
+}
+
+.description {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 20px;
+    color: rgb(148, 163, 184);
+    margin: 0px;
+}
+
+.calculator {
+    flex: 1;
+    border: 1px solid #ccc ;
+    border-radius: 5px;
+    padding: 6px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display input {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.buttons button {
+    width: 100%;
+    height: 70px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.chat-bot-container {
+    width: 35%;
+    box-sizing: border-box;
+}
+
+
+.description-2 {
+    font-family: Outfit, sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: Bold;
+    letter-spacing: 0px;
+    line-height: 0px;
+    color: rgb(148, 163, 184);
+    margin-top: 40px;
+}
+
+.basic-operation {
+    font-family: Caveat;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 14px;
+    color: grey;
+    line-height: 10px;
+}
+
+.functional-calculator {
+    background-image: url(https://media.istockphoto.com/id/1409055428/photo/background-material-with-an-impressive-vivid-gradation.webp?b=1&s=170667a&w=0&k=20&c=8bIan_nY7Z8wiiXUUu5fw7PHvU5l2zaGOxb1PQKi6eo=);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(136, 136, 136);
+    font-size: 35px;
+    font-family: Outfit, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    white-space: normal;
+    line-height: 1;
+    margin: 0px;
+    padding: 0px 0px 10px;
+
+}
